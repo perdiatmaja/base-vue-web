@@ -1,3 +1,5 @@
+import Env from './EnvConstant'
+
 export default {
-    BASE_URL: process.env.VUE_APP_REST_API
+    REST_API_URL: Env.restApiUrl
 }

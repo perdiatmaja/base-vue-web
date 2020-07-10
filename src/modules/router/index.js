@@ -1,6 +1,7 @@
 import Vue from "vue"
 import Router from "vue-router"
 import MainRouter from "./MainRouter"
+import EnvConstant from "Constant/EnvConstant"
 
 Vue.use(Router)
 
@@ -11,7 +12,7 @@ MainRouter.forEach(function (item) {
 })
 
 export default new Router({
-  mode: "history",
-  base: process.env.BASE_URL,
+  mode: EnvConstant.routerMode,
+  base: EnvConstant.baseURL,
   routes: routes
 })
