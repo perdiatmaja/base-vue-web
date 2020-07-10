@@ -28,3 +28,6 @@ yarn.lock
 
 package-lock.json
 /package-lock.json
+
+*.browserslistrc
+.browserslistrc
