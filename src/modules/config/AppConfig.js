@@ -1,5 +1,5 @@
 import Vue from "vue"
-import ApiServices from 'Api/ApiServices'
+import ApiServices from 'Api/services/ApiServices'
 import GloablMethods from 'Plugin/GlobalMethods'
 
 Vue.config.productionTip = false
