@@ -13,7 +13,9 @@ module.exports = {
             Page: path.resolve(__dirname, 'src/views/pages'),
             Component: path.resolve(__dirname, 'src/views/components'),
             Api: path.resolve(__dirname, 'src/modules/api'),
-            Constant: path.resolve(__dirname, 'src/data/constant')
+            Constant: path.resolve(__dirname, 'src/data/constant'),
+            Plugin: path.resolve(__dirname, 'src/modules/plugins'),
+            Store: path.resolve(__dirname, 'src/data/store'),
         }
     }
 }

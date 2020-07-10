@@ -1,16 +1,17 @@
 import Vue from "vue"
-import VueRouter from "vue-router"
+import Router from "vue-router"
+import MainRouter from "./MainRouter"
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-const routes = [
-  
-]
+let routes = []
 
-const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
-  routes
+MainRouter.forEach(function (item) {
+  routes.push(item)
 })
 
-export default router
+export default new Router({
+  mode: "history",
+  base: process.env.BASE_URL,
+  routes: routes
+})
