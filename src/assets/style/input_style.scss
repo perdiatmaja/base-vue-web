@@ -1,0 +1,17 @@
+.common-input {
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+
+.common-input:focus {
+    outline: none;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #73a1ff;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}

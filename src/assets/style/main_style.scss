@@ -1,0 +1,78 @@
+@import "./variable.scss";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "input_style.scss";
+@import "size_style.scss";
+
+body,
+html,
+#app {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg_main_color {
+    background-color: $color_main;
+}
+
+.bar_color {
+    background-color: $color_bar;
+}
+
+.PageTitle {
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.TableTitle {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.medium-padding {
+    padding: 12px;
+}
+
+.medium-margin {
+    margin: 12px;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    opacity: 0.5;
+}
