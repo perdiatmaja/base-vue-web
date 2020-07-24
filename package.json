@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve_dev": "vue-cli-service serve --mode example --port 8080",
-    "build_dev": "vue-cli-service build --mode example --port 8080",
+    "serve_example": "vue-cli-service serve --mode example --port 8080",
+    "build_example": "vue-cli-service build --mode example --port 8080",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
